@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Adhkar</string>
+    <string name="morning_notif_title">Invocation du matin</string>
+    <string name="evening_notif_title">Invocation du soir</string>
+    <string name="morning_notif">Il est le temps pour faire les invocations du matin :-)</string>
+    <string name="evening_notif">Il est le temps pour faire les invocations du soir :-)</string>
+</resources>

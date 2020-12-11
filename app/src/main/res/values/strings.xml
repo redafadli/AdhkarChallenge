@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Adhkar</string>
+    <string name="morning_notif_title"> أذكار الصباح</string>
+    <string name="evening_notif_title">أذكار المساء</string>
+    <string name="morning_notif">إنه وقت أذكار الصباح :-)</string>
+    <string name="evening_notif">إنه وقت أذكار المساء:-)</string>
+</resources>

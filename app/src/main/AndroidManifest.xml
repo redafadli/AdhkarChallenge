@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.beoptimist.android.adhkar">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo2"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.beoptimist.android.adhkar.finished_evening"></activity>
+        <activity android:name="com.beoptimist.android.adhkar.finished_morning" />
+        <activity android:name="com.beoptimist.android.adhkar.page222" />
+        <activity android:name="com.beoptimist.android.adhkar.page221" />
+        <activity android:name="com.beoptimist.android.adhkar.page220" />
+        <activity android:name="com.beoptimist.android.adhkar.page219" />
+        <activity android:name="com.beoptimist.android.adhkar.page218" />
+        <activity android:name="com.beoptimist.android.adhkar.page217" />
+        <activity android:name="com.beoptimist.android.adhkar.page216" />
+        <activity android:name="com.beoptimist.android.adhkar.page215" />
+        <activity android:name="com.beoptimist.android.adhkar.page214" />
+        <activity android:name="com.beoptimist.android.adhkar.page213" />
+        <activity android:name="com.beoptimist.android.adhkar.page212" />
+        <activity android:name="com.beoptimist.android.adhkar.page211" />
+        <activity android:name="com.beoptimist.android.adhkar.page210" />
+        <activity android:name="com.beoptimist.android.adhkar.page29" />
+        <activity android:name="com.beoptimist.android.adhkar.page28" />
+        <activity android:name="com.beoptimist.android.adhkar.page27" />
+        <activity android:name="com.beoptimist.android.adhkar.page26" />
+        <activity android:name="com.beoptimist.android.adhkar.page25" />
+        <activity android:name="com.beoptimist.android.adhkar.page24" />
+        <activity android:name="com.beoptimist.android.adhkar.page23" />
+        <activity android:name="com.beoptimist.android.adhkar.page22" />
+        <activity android:name="com.beoptimist.android.adhkar.page21" />
+        <activity android:name="com.beoptimist.android.adhkar.page124" />
+        <activity android:name="com.beoptimist.android.adhkar.page123" />
+        <activity android:name="com.beoptimist.android.adhkar.page122" />
+        <activity android:name="com.beoptimist.android.adhkar.page121" />
+        <activity android:name="com.beoptimist.android.adhkar.page120" />
+        <activity android:name="com.beoptimist.android.adhkar.page119" />
+        <activity android:name="com.beoptimist.android.adhkar.page118" />
+        <activity android:name="com.beoptimist.android.adhkar.page117" />
+        <activity android:name="com.beoptimist.android.adhkar.page116" />
+        <activity android:name="com.beoptimist.android.adhkar.page115" />
+        <activity android:name="com.beoptimist.android.adhkar.page114" />
+        <activity android:name="com.beoptimist.android.adhkar.page113" />
+        <activity android:name="com.beoptimist.android.adhkar.page112" />
+        <activity android:name="com.beoptimist.android.adhkar.page111" />
+        <activity android:name="com.beoptimist.android.adhkar.page110" />
+        <activity android:name="com.beoptimist.android.adhkar.page19" />
+        <activity android:name="com.beoptimist.android.adhkar.page18" />
+        <activity android:name="com.beoptimist.android.adhkar.page17" />
+        <activity android:name="com.beoptimist.android.adhkar.page16" />
+        <activity android:name="com.beoptimist.android.adhkar.page15" />
+        <activity android:name="com.beoptimist.android.adhkar.page14" />
+        <activity android:name="com.beoptimist.android.adhkar.page13" />
+        <activity android:name="com.beoptimist.android.adhkar.page12" />
+        <activity android:name="com.beoptimist.android.adhkar.page11" />
+        <activity android:name="com.beoptimist.android.adhkar.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <receiver android:name=".ReminderBroadcast"/>
+        <receiver android:name=".ReminderBroadcast2"/>
+    </application>
+
+</manifest>
